@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #0066cc;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    padding: 60px;
+    background: linear-gradient(to right, #0066cc, #00aaff);
+    color: white;
+}
+
+/* Section */
+section {
+    padding: 40px;
+}
+
+/* Card */
+.card {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+/* Grid Produk */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Form */
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+}
+
+/* Hover sederhana (kreatif) */
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
